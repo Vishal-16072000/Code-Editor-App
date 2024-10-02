@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="leftPart">
+        <div class="content">
+            <div class="content-name lightTheme">
+                <img src="https://cdn-icons-png.flaticon.com/128/186/186320.png" alt="html-logo"/>   
+                <div class="nameBtn">
+                    <span>HTML</span>
+                    <button class="reset-btn-html">Reset</button>
+                </div>
+            </div>
+            <textarea name="" id="" class="textArea darkTheme"></textarea>
+        </div>
+        <div class="content">
+            <div class="content-name">
+                <img src="https://cdn-icons-png.flaticon.com/128/732/732190.png"/>
+                <div class="nameBtn">
+                    <span>CSS</span>
+                    <button class="reset-btn-css">Reset</button>
+                </div>
+            </div>
+            <textarea name="" id="" class="textArea darkTheme"></textarea>
+        </div>
+        <div class="content">
+            <div class="content-name">
+                <img src="https://cdn-icons-png.flaticon.com/128/4726/4726005.png"/>
+                <div class="nameBtn">
+                    <span>Javascript</span>
+                    <button class="reset-btn-js">Reset</button>
+                </div>
+            </div>
+            <textarea name="" id="" class="textArea darkTheme"></textarea>
+        </div>
+    </div>
+    <div class="rightPart darkThemeOutput">
+        <div class="outputHeading">
+            <span>Output</span>
+            <span>Theme : 
+                <input type="radio" id="Dark" name="theme" checked><label> Dark</label>
+                <input type="radio" id="Light" name="theme"><label> Light</label>
+            </span>
+        </div>
+        <iframe id="output"></iframe>
+
+        <div class="btnDiv">
+            <button class="runBtn">Run >></button>
+            <button class="resetBtn">Reset</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

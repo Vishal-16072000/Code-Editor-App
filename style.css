@@ -1,0 +1,135 @@
+*{
+    margin : 0;
+    padding: 0;
+    font-family: sans-serif;
+    /* box-sizing : border-box; */
+}
+
+body{
+    width : 100%;
+    height : 100vh;
+    background-color: yellow;
+    display: flex;
+}
+
+.leftPart{
+    background-color: rgb(57, 87, 185);
+    flex-basis : 50%;
+    height : 100vh;
+    display: flex;
+    flex-direction: column;
+    gap : 1px; 
+}
+
+.content{
+    /* height: 100vh; */
+    background-color: #fff;
+    flex-basis: 33%;
+}
+
+.rightPart{
+    flex-basis: 50%;
+    /* background-color: #504f4f; */
+    height: 100%;
+}
+
+.leftPart .content img{
+    width: 20px;
+}
+
+.leftPart .content .content-name{
+    background-color: #616060;
+    color: #fff;
+    display: flex;
+    padding: 3px 7px;
+}
+
+.leftPart .content textarea{
+    width: 100%;
+    height : 78.5%;
+    padding: 8px;
+    outline: none;
+    border: none;
+    /* background-color: #242323; */
+    /* color: white; */
+}
+
+.rightPart .outputHeading{
+    display: flex;
+    justify-content: space-between;
+    padding : 4px;
+    background-color: rgb(57, 87, 185);
+    color: #fff;
+}
+
+.rightPart iframe{
+    display: block;
+    width : 100%;
+    height: 80%;
+    box-sizing : border-box;
+    border: 2px solid black;
+}
+
+.runBtn{
+    width : 120px;
+    height : 50px;
+    font-size : 20px;
+    margin: 20px 30px;
+    background-color: rgb(57, 87, 185);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.resetBtn{
+    width : 120px;
+    height : 50px;
+    font-size : 20px;
+    margin: 20px 30px;
+    background-color: rgb(57, 87, 185);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.nameBtn{
+    width: 100%;
+    /* background-color: #fff; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnDiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+span{
+    margin: 0px 5px;
+}
+
+.nameBtn button{
+    background: #e9c2f8;
+    color: #8e3991;
+    padding : 0px 15px;
+    border : none;
+    border-radius: 3px; 
+}
+
+.lightTheme{
+    background-color: #eeecec;
+    color : black;
+}
+
+.lightThemeOutput{
+    background-color: #b3b0b0;
+}
+
+.darkTheme{
+    background-color: #242323;
+    color: #fff;
+}
+
+.darkThemeOutput{
+    background-color: #504f4f;
+}
